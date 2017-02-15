@@ -1,0 +1,31 @@
+<div ng-include="'app/views/sistema/menu.html'"></div>
+<div id="wrapper">
+    <div id="page-wrapper" ng-init="lista()">
+        <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Gerar lista semanal</h1>
+        </div>
+    </div> 
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    Lista Aletória
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <form role="form">
+                                <div class="form-group">
+                                    <p class="help-block">Irá gerar uma lista dos encarregados de fazer café durante a semana</p>
+                                </div>
+                                <button type="submit" class="btn btn-success" title="Salvar" ng-click="gerar()">Gerar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+        </div>
+    </div>
+</div>

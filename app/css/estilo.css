@@ -1,0 +1,35 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.code{
+	display: table;
+	margin: 0 auto;
+	padding-top: 10%;
+	position: relative;
+	text-align: center;
+}
+
+.code img{
+	width: 140px;
+}
+.code img:hover{
+	-webkit-animation-name: rotate;
+    animation-name: rotate;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+  	-webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.code h1{
+	line-height: 0;
+    -webkit-animation-delay:0.5s;        
+    animation-delay:0.5s;
+    -webkit-transition: color 1s ease;
+	-moz-transition: color 1s ease;
+	-ms-transition: color 1s ease;
+	-o-transition: color 1s ease;
+	transition: color 1s ease;      
+}
+.code h1:hover{
+	color: #6e953c;
+}
