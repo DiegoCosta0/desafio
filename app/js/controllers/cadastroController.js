@@ -28,6 +28,9 @@
                 }else{
                 	$scope.existeNome = false;
                 }
+
+
+                
             }
 		}
 
